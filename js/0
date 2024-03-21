@@ -1,0 +1,12 @@
+const form = document.getElementById('empForm')
+
+
+
+
+//event listener for form submission
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    const inputs = form.getElementById('id')
+
+    console.log('Form Submitted')
+})
